@@ -1,0 +1,880 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# Polls API
+
+
+
+## Questions Collection [/getplans]
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+
+        [ "getplans":
+            {
+                "rechargeType": "TOPUP",
+                "published_at": "2015-08-05T08:40:51.620Z",
+                "choices": [
+                               {
+                                  "Detail":"Rs.7.77 Talktime",
+                                  "Amount":"10",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.15.54 Talktime",
+                                  "Amount":"20",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.23.32 Talktime",
+                                  "Amount":"30",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.31.78 Talktime",
+                                  "Amount":"40",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.40.86 Talktime",
+                                  "Amount":"50",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.49.63 Talktime",
+                                  "Amount":"60",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.58.4 Talktime",
+                                  "Amount":"70",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.75 Talktime",
+                                  "Amount":"80",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.84.72 Talktime",
+                                  "Amount":"100",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.93.49 Talktime",
+                                  "Amount":"110",
+                                  "Validity":"Unlimited"
+                               }
+                               {
+                                  "Detail":"Rs.101.35 Talktime",
+                                  "Amount":"120",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.118.74 Talktime",
+                                  "Amount":"140",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.127.43 Talktime",
+                                  "Amount":"150",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.144.83 Talktime",
+                                  "Amount":"170",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.170.91 Talktime",
+                                  "Amount":"200",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.179.61 Talktime",
+                                  "Amount":"210",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.250 Talktime",
+                                  "Amount":"250",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.260 Talktime",
+                                  "Amount":"260",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.300 Talktime",
+                                  "Amount":"300",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.500 Talktime",
+                                  "Amount":"500",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.700 Talktime",
+                                  "Amount":"700",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.1000 Talktime",
+                                  "Amount":"1000",
+                                  "Validity":"Unlimited"
+                               },
+                               {
+                                  "Detail":"Rs.2000 Talktime",
+                                  "Amount":"2000",
+                                  "Validity":"Unlimited"
+                               }
+                            ]
+            },
+            
+            {
+                "rechargeType": "3G/4G",
+                "published_at": "2015-08-05T08:40:51.620Z",
+                "choices": [
+                                {  
+                                    "Detail":"50 MB Data",
+                                    "Amount":"17",
+                                    "Validity":"1 Day"
+                                },
+                                {  
+                                    "Detail":"150 MB Data",
+                                    "Amount":"49",
+                                    "Validity":"5 Days"
+                                },
+                                {  
+                                    "Detail":"300 MB Data",
+                                    "Amount":"99",
+                                    "Validity":"10 Days"
+                                },
+                                {  
+                                    "Detail":"450 MB Data",
+                                    "Amount":"149",
+                                    "Validity":"14 Days"
+                                },
+                                {  
+                                    "Detail":"250MB (2G)+250MB (3G) Data",
+                                    "Amount":"155",
+                                    "Validity":"14 days"
+                                },
+                                {  
+                                    "Detail":"700 MB Data",
+                                    "Amount":"176",
+                                    "Validity":"21 Days"
+                                },
+                                {  
+                                    "Detail":"750 MB Data",
+                                    "Amount":"255",
+                                    "Validity":"21 Days"
+                                },
+                                {  
+                                    "Detail":"2 GB Unltd Data",
+                                    "Amount":"297",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"750MB 3G+125 MB Facebook+125 MB Whatsapp Data",
+                                    "Amount":"298",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"1 GB Data",
+                                    "Amount":"299",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"1.5 GB Data",
+                                    "Amount":"398",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"1.75 GB Data",
+                                    "Amount":"455",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"2 GB Data",
+                                    "Amount":"497",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"2 GB 3G data",
+                                    "Amount":"549",
+                                    "Validity":"60 Days"
+                                },
+                                {  
+                                    "Detail":"2 GB Data",
+                                    "Amount":"575",
+                                    "Validity":"60 Days"
+                                },
+                                {  
+                                    "Detail":"2.5 GB Data",
+                                    "Amount":"655",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"3 GB Data",
+                                    "Amount":"699",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"3.25 GB Data",
+                                    "Amount":"755",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"3.75 GB Data",
+                                    "Amount":"855",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"4 GB Unltd Data",
+                                    "Amount":"899",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"4.25 GB Data",
+                                    "Amount":"955",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"5 GB Unltd Data",
+                                    "Amount":"1099",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"6 GB Unltd Data",
+                                    "Amount":"1255",
+                                    "Validity":"28 Days"
+                                }
+                            ]
+            },
+            
+            {
+                "rechargeType": "2G",
+                "published_at": "2015-08-05T08:40:51.620Z",
+                "choices": [
+                                {  
+                                    "Detail":"75 MB Data",
+                                    "Amount":"18",
+                                    "Validity":"1 Day"
+                                },
+                                {  
+                                    "Detail":"100 MB Data",
+                                    "Amount":"23",
+                                    "Validity":"2 Days"
+                                },
+                                {  
+                                    "Detail":"150 MB 2G data",
+                                    "Amount":"35",
+                                    "Validity":"3 Days"
+                                },
+                                {  
+                                    "Detail":"150 MB Data",
+                                    "Amount":"39",
+                                    "Validity":"4 Days"
+                                },
+                                {  
+                                    "Detail":"200 MB Whatsapp 2G data(Speed basis network selected)",
+                                    "Amount":"43",
+                                    "Validity":"30 Days"
+                                },
+                                {  
+                                    "Detail":"225 MB Data",
+                                    "Amount":"59",
+                                    "Validity":"7 Days"
+                                },
+                                {  
+                                    "Detail":"275 MB Data",
+                                    "Amount":"73",
+                                    "Validity":"8 Days"
+                                },
+                                {  
+                                    "Detail":"375 MB Data",
+                                    "Amount":"98",
+                                    "Validity":"10 Days"
+                                },
+                                {  
+                                    "Detail":"600 MB Data",
+                                    "Amount":"156",
+                                    "Validity":"18 Days"
+                                },
+                                {  
+                                    "Detail":"1 GB Data",
+                                    "Amount":"199",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"1.5 GB Data",
+                                    "Amount":"251",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"750 Local Airtel-to-Airtel mins with 28 days validity",
+                                    "Amount":"269",
+                                    "Validity":"28 Days"
+                                }
+                            ]
+            },
+            
+            {
+                "rechargeType": "SMS",
+                "published_at": "2015-08-05T08:40:51.620Z"
+                "choices": 
+                            [
+                                {  
+                                    "Detail":"140 Local SMS. Maximum 100 SMS per Day",
+                                    "Amount":"13",
+                                    "Validity":"5 Days"
+                                },
+                                {  
+                                    "Detail":"200 Local and STD SMS. Maximum 100 SMS per Day",
+                                    "Amount":"26",
+                                    "Validity":"14 days"
+                                },
+                                {  
+                                    "Detail":"340 Local and STD SMS. Maximum 100 SMS per Day",
+                                    "Amount":"34",
+                                    "Validity":"28 days"
+                                },
+                                {  
+                                    "Detail":"450 Local and STD SMS. Maximum 100 SMS per Day",
+                                    "Amount":"42",
+                                    "Validity":"28 days"
+                                },
+                                {  
+                                    "Detail":"700 Local and STD SMS. Maximum 100 SMS per Day",
+                                    "Amount":"62",
+                                    "Validity":"28 days"
+                                },
+                                {  
+                                    "Detail":"1000 Local and STD SMS. Maximum 100 SMS per Day",
+                                    "Amount":"88",
+                                    "Validity":"28 days"
+                                },
+                                {  
+                                    "Detail":"2400 Local and STD SMS. Maximum 100 SMS per Day",
+                                    "Amount":"218",
+                                    "Validity":"28 days"
+                                }
+                            ]
+            },
+            
+            {
+                "rechargeType": "ROAMING",
+                "published_at": "2015-08-05T08:40:51.620Z"
+                "choices": 
+                            [
+                                {  
+                                    "Detail":"Roaming Tariff - Incoming calls @ 10p\/min, Outgoing local @ 80p\/min, STD @1.15Rs\/min",
+                                    "Amount":"5",
+                                    "Validity":"1 Day"
+                                },
+                                {  
+                                    "Detail":"Roaming Tariff - Incoming Free in UPW, UPE, Bihar and Jharkahand, West Bengal, Kolkata, Haryana, Rajasthan, Outgoing local @ 80p\/min, STD @1.15Rs\/min",
+                                    "Amount":"21",
+                                    "Validity":"30 Days"
+                                },
+                                {  
+                                    "Detail":"All Local+STD Mobile calls at 50p\/min with 49 days validity",
+                                    "Amount":"83",
+                                    "Validity":"49 Days"
+                                },
+                                {  
+                                    "Detail":"20 ISD minutes to Nepal",
+                                    "Amount":"136",
+                                    "Validity":"28 days"
+                                },
+                                {  
+                                    "Detail":"Roaming Tariff - Incoming Free, Outgoing local @ 80p\/min, STD @1.15Rs\/min with Talk Time 120 in main A\/c",
+                                    "Amount":"188",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"600 MB Data",
+                                    "Amount":"198",
+                                    "Validity":"21 Days"
+                                },
+                                {  
+                                    "Detail":"FTT 306 with Roaming Tariff - Incoming Free, Outgoing local @ 80p\/min, STD @1.15Rs\/min",
+                                    "Amount":"306",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"Rs. 350 Full Talktime",
+                                    "Amount":"350",
+                                    "Validity":"Unlimited"
+                                }
+                            ]
+            },
+            
+            {
+                "rechargeType": "FULL TALKTIME",
+                "published_at": "2015-08-05T08:40:51.620Z"
+                "choices":
+                            [
+                                {  
+                                    "Detail":"Rs. 260 Full Talktime",
+                                    "Amount":"260",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 300 Full Talktime",
+                                    "Amount":"300",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 340 Full Talktime",
+                                    "Amount":"340",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 360 Full Talktime",
+                                    "Amount":"360",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 390 Full Talktime",
+                                    "Amount":"390",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 500 Full Talktime",
+                                    "Amount":"500",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 510 Full Talktime",
+                                    "Amount":"510",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 550 Full Talktime",
+                                    "Amount":"550",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 650 Full Talktime",
+                                    "Amount":"650",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 700 Full Talktime",
+                                    "Amount":"700",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 750 Full Talktime",
+                                    "Amount":"750",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs 786 Talktime with Unlimited validity with1 night min from 11pm to 6 am for 1 Day",
+                                    "Amount":"786",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 800 Full Talktime",
+                                    "Amount":"800",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 850 Full Talktime",
+                                    "Amount":"850",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 900 Full Talktime",
+                                    "Amount":"900",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 950 Full Talktime",
+                                    "Amount":"950",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 1000 Full Talktime",
+                                    "Amount":"1000",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 1050 Full Talktime",
+                                    "Amount":"1050",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 1100 Full Talktime",
+                                    "Amount":"1100",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 1150 Full Talktime",
+                                    "Amount":"1150",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"Rs. 1200 Full Talktime",
+                                    "Amount":"1200",
+                                    "Validity":"Unlimited"
+                                }
+                            ]
+            },
+            
+            {
+                "rechargeType": "LOCAL-STD-ISD",
+                "published_at": "2015-08-05T08:40:51.620Z"
+                "choices":
+                            [  
+                                {  
+                                    "Detail":"Local and STD Mobile calls @ 1 p\/sec",
+                                    "Amount":"8",
+                                    "Validity":"2 Days"
+                                },
+                                {  
+                                    "Detail":"STD mobile calls @ 40p\/min",
+                                    "Amount":"14",
+                                    "Validity":"3 Days"
+                                },
+                                {  
+                                    "Detail":"22 Local and STD Mobile minutes",
+                                    "Amount":"15",
+                                    "Validity":"1 day"
+                                },
+                                {  
+                                    "Detail":"35 Local Airtel-to-Airtel mins with 2 days validity",
+                                    "Amount":"16",
+                                    "Validity":"2 Days"
+                                },
+                                {  
+                                    "Detail":"STD mobile calls @ 1 p\/sec",
+                                    "Amount":"19",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"ISD to Nepal at Rs 6\/min",
+                                    "Amount":"22",
+                                    "Validity":"21 days"
+                                },
+                                {  
+                                    "Detail":"37 Local and STD minutes",
+                                    "Amount":"25",
+                                    "Validity":"3 Days"
+                                },
+                                {  
+                                    "Detail":"Local 1.2p\/sec, STD 1.5p\/sec",
+                                    "Amount":"28",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"50 STD minutes",
+                                    "Amount":"29",
+                                    "Validity":"4 Days"
+                                },
+                                {  
+                                    "Detail":"All Local Mobile calls at 40p\/min with 12 days validity",
+                                    "Amount":"31",
+                                    "Validity":"12"
+                                },
+                                {  
+                                    "Detail":"57 STD minutes to UP and Bihar",
+                                    "Amount":"32",
+                                    "Validity":"3 Days"
+                                },
+                                {  
+                                    "Detail":"local and STD mobile calls @ 45p\/min",
+                                    "Amount":"33",
+                                    "Validity":"10 Days"
+                                },
+                                {  
+                                    "Detail":"All Local Mobile calls at 45p\/min with 18 days validity",
+                                    "Amount":"36",
+                                    "Validity":"18 Days"
+                                },
+                                {  
+                                    "Detail":"45p\/min STD mobile calls",
+                                    "Amount":"38",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"Local @ 1.2p\/sec, STD @ 1.5p\/sec",
+                                    "Amount":"41",
+                                    "Validity":"56 Days"
+                                },
+                                {  
+                                    "Detail":"78 STD minutes",
+                                    "Amount":"44",
+                                    "Validity":"5 Days"
+                                },
+                                {  
+                                    "Detail":"110 Local Airtel-to-Airtel mins with 5 days validity",
+                                    "Amount":"45",
+                                    "Validity":"5 Days"
+                                },
+                                {  
+                                    "Detail":"50p\/min Local and STD mobile calls",
+                                    "Amount":"46",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"Local and STD Mobile calls @ 1.5p\/sec",
+                                    "Amount":"47",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"40p\/min STD mobile calls",
+                                    "Amount":"48",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"85 Local and STD minutes",
+                                    "Amount":"53",
+                                    "Validity":"7 Days"
+                                },
+                                {  
+                                    "Detail":"90 STD minutes",
+                                    "Amount":"55",
+                                    "Validity":"7 Days"
+                                },
+                                {  
+                                    "Detail":"All Local+STD Mobile calls at 45p\/min with 20 days validity",
+                                    "Amount":"56",
+                                    "Validity":"20 Days"
+                                },
+                                {  
+                                    "Detail":"US, Canada@1p\/sec till 18000 secs",
+                                    "Amount":"57",
+                                    "Validity":"25 days"
+                                },
+                                {  
+                                    "Detail":"STD mobile@ 35p\/min, 28 days",
+                                    "Amount":"58",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"All Local Mobile calls at 40p\/min with 28 days validity",
+                                    "Amount":"64",
+                                    "Validity":"28"
+                                },
+                                {  
+                                    "Detail":"All Local+STD Mobile calls at 45p\/min with 28 days validity",
+                                    "Amount":"66",
+                                    "Validity":"28"
+                                },
+                                {  
+                                    "Detail":"10 ISD minutes to Nepal",
+                                    "Amount":"68",
+                                    "Validity":"10 days"
+                                },
+                                {  
+                                    "Detail":"45p\/min STD mobile calls",
+                                    "Amount":"69",
+                                    "Validity":"56 Days"
+                                },
+                                {  
+                                    "Detail":"All Local Mobile calls at 45p\/min with 42 days validity",
+                                    "Amount":"71",
+                                    "Validity":"42 Days"
+                                },
+                                {  
+                                    "Detail":"All Local+STD Mobile calls at 40p\/min with 21 days validity",
+                                    "Amount":"76",
+                                    "Validity":"21 Days"
+                                },
+                                {  
+                                    "Detail":"All Local Mobile calls at 30p\/min with 20 days validity",
+                                    "Amount":"78",
+                                    "Validity":"20"
+                                },
+                                {  
+                                    "Detail":"Roaming Tariff - Incoming Free, Outgoing local @ 80p\/min, STD @1.15Rs\/min",
+                                    "Amount":"79",
+                                    "Validity":"30 Days"
+                                },
+                                {  
+                                    "Detail":"Local mobile@ 35p\/min, 28 days",
+                                    "Amount":"85",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"All Local+STD Mobile calls at 40p\/min with 28 days validity",
+                                    "Amount":"86",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"Local and STD Mobile calls @ 1.5p\/sec",
+                                    "Amount":"89",
+                                    "Validity":"56 Days"
+                                },
+                                {  
+                                    "Detail":"300 Local Airtel-to-Airtel mins with 7 days validity",
+                                    "Amount":"96",
+                                    "Validity":"7 Days"
+                                },
+                                {  
+                                    "Detail":"35 minutes ISD pack ",
+                                    "Amount":"97",
+                                    "Validity":""
+                                },
+                                {  
+                                    "Detail":"1080 airtel local night minutes from 11pm to 6am",
+                                    "Amount":"108",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"200 Local and STD minutes",
+                                    "Amount":"111",
+                                    "Validity":"14 Days"
+                                },
+                                {  
+                                    "Detail":"Local+ STD mobile@ 35p\/min, 28 days",
+                                    "Amount":"112",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"180 Local and STD minutes",
+                                    "Amount":"115",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"200 Local and STD minutes",
+                                    "Amount":"119",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"500 MB Data",
+                                    "Amount":"125",
+                                    "Validity":"14 Days"
+                                },
+                                {  
+                                    "Detail":"Rs 135 Talktime for 10 Days and 2 Airtel Local night min from 12am to 6am for 1 Day",
+                                    "Amount":"135",
+                                    "Validity":"10 Days"
+                                },
+                                {  
+                                    "Detail":"STD Mobile calls @ 40 p\/min",
+                                    "Amount":"139",
+                                    "Validity":"90 Days"
+                                },
+                                {  
+                                    "Detail":"260 Local and STD minutes",
+                                    "Amount":"147",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"Rs.128.58 Talktime",
+                                    "Amount":"150",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"2000 Airtel Local Night minutes from 11pm to 6am",
+                                    "Amount":"151",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"60 minutes ISD minutes pack ",
+                                    "Amount":"153",
+                                    "Validity":""
+                                },
+                                {  
+                                    "Detail":"Rs.137.35 Talktime",
+                                    "Amount":"160",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"350 Local and STD mobile minutes",
+                                    "Amount":"196",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"480 Local Airtel-to-Airtel mins with 21 days validity",
+                                    "Amount":"197",
+                                    "Validity":"21 Days"
+                                },
+                                {  
+                                    "Detail":"Rs.172.44 Talktime",
+                                    "Amount":"200",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"500 Local Airtel-to-Airtel mins with 28 days validity",
+                                    "Amount":"215",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"500 STD Minutes",
+                                    "Amount":"249",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"Rs. 250 Full Talktime",
+                                    "Amount":"250",
+                                    "Validity":"Unlimited"
+                                },
+                                {  
+                                    "Detail":"1000 Local Airtel-to-Airtel mins with 28 days validity",
+                                    "Amount":"325",
+                                    "Validity":"28"
+                                },
+                                {  
+                                    "Detail":"1 GB+125 MB Facebook+125 MB Whatsapp Data",
+                                    "Amount":"355",
+                                    "Validity":"28 Days"
+                                },
+                                {  
+                                    "Detail":"900 Local and STD Minutes",
+                                    "Amount":"399",
+                                    "Validity":"28 Days"
+                                }
+                            ]
+            }
+        ]
+
+### Create a New Question [POST]
+
+
++ Request (application/json)
+
+        {
+            "question": "Favourite programming language?",
+            "choices": [
+                "Swift",
+                "Python",
+                "Objective-C",
+                "Ruby"
+            ]
+        }
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /getplans/2
+
+    + Body
+
+            {
+                "question": "Favourite programming language?",
+                "published_at": "2015-08-05T08:40:51.620Z",
+                "choices": [
+                    {
+                        "choice": "Swift",
+                        "votes": 0
+                    }, {
+                        "choice": "Python",
+                        "votes": 0
+                    }, {
+                        "choice": "Objective-C",
+                        "votes": 0
+                    }, {
+                        "choice": "Ruby",
+                        "votes": 0
+                    }
+                ]
+            }
