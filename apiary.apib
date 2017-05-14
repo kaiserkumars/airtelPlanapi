@@ -11,8 +11,9 @@ HOST: http://polls.apiblueprint.org/
 
 + Response 200 (application/json)
 
-        [ "getplans":
-            {
+        { "getplans":
+            [
+                {
                 "rechargeType": "TOPUP",
                 "published_at": "2015-08-05T08:40:51.620Z",
                 "choices": [
@@ -65,7 +66,7 @@ HOST: http://polls.apiblueprint.org/
                                   "Detail":"Rs.93.49 Talktime",
                                   "Amount":"110",
                                   "Validity":"Unlimited"
-                               }
+                               },
                                {
                                   "Detail":"Rs.101.35 Talktime",
                                   "Amount":"120",
@@ -325,7 +326,7 @@ HOST: http://polls.apiblueprint.org/
             
             {
                 "rechargeType": "SMS",
-                "published_at": "2015-08-05T08:40:51.620Z"
+                "published_at": "2015-08-05T08:40:51.620Z",
                 "choices": 
                             [
                                 {  
@@ -368,7 +369,7 @@ HOST: http://polls.apiblueprint.org/
             
             {
                 "rechargeType": "ROAMING",
-                "published_at": "2015-08-05T08:40:51.620Z"
+                "published_at": "2015-08-05T08:40:51.620Z",
                 "choices": 
                             [
                                 {  
@@ -416,7 +417,7 @@ HOST: http://polls.apiblueprint.org/
             
             {
                 "rechargeType": "FULL TALKTIME",
-                "published_at": "2015-08-05T08:40:51.620Z"
+                "published_at": "2015-08-05T08:40:51.620Z",
                 "choices":
                             [
                                 {  
@@ -529,7 +530,7 @@ HOST: http://polls.apiblueprint.org/
             
             {
                 "rechargeType": "LOCAL-STD-ISD",
-                "published_at": "2015-08-05T08:40:51.620Z"
+                "published_at": "2015-08-05T08:40:51.620Z",
                 "choices":
                             [  
                                 {  
@@ -833,8 +834,9 @@ HOST: http://polls.apiblueprint.org/
                                     "Validity":"28 Days"
                                 }
                             ]
-            }
-        ]
+                }
+            ]
+        }
 
 ### Create a New Question [POST]
 
